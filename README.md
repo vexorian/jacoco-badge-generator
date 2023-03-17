@@ -1,3 +1,12 @@
+## Fork Info
+
+This fork exists only to change the summary output created by the action to be more compact. The following is a preview of how the summary looks:
+
+| Coverage | 32.9% | Branches | 9.7% |
+|----------|---------|----------|---------|
+
+Eventually I think the better solution would be to make the markdown template customizable and merge that feature to mainstream. For now, let's make it a fork.
+
 # jacoco-badge-generator
 
 [![cicirello/jacoco-badge-generator - Coverage badges, and pull request coverage checks, from JaCoCo reports in GitHub Actions](https://actions.cicirello.org/images/jacoco-badge-generator640.png)](#jacoco-badge-generator)
