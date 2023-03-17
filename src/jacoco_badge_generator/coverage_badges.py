@@ -58,7 +58,8 @@ transform="scale(.1)" fill="#fff" textLength="{2}">{0}</text>\
 
 defaultColors = [ "#4c1", "#97ca00", "#a4a61d", "#dfb317", "#fe7d37", "#e05d44" ]
 
-markdownSummaryTemplate = """## Test Coverage: {0:.3%}, Branches: {1:.3%}"""
+markdownSummaryTemplate = """| Coverage | {0:.1%} | Branches | {1:.1%} |"""
+"""|----------|---------|----------|---------|"""
 
 def generateBadge(covStr, color, badgeType="coverage") :
     """Generates the badge as a string. This includes calculating
